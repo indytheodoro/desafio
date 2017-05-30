@@ -6,7 +6,7 @@ from datetime import datetime
 
 def etllog():
     
-    arq = open("../log/access_log_Aug95", "r")
+    arq = open("./access_log_Aug95", "r")
     data = {}
     blocks = []
     
